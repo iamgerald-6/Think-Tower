@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.nav-link{
+    margin: 0 9px;
+}
+
+
+.mynav{
+    background: linear-gradient(50deg, #FFF 30%, rgba(19, 232, 206, 0.35) 0%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.mylink{
+    display:flex;
+    justify-content: center;
+}
+.cifont{
+    color:rgb(63, 63, 63)
+}
+.bg-color{
+    background-color: #f0f0f0e0 !important;
+   border-radius: 5px;
+}
+.img-1{
+    width:130px;
+    height:52px;
+}
+.mynav-item{
+    list-style-type: none;
+    background-color: #eec764;
+    width:130px;
+    height:35px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.mynav-item:hover{
+    background-color: #b99435;
+    transition: 0.4s;
+}
+    
+.myhome-bg{
+    background-color: #eefdfc;
+    opacity: 0.8;
+    
+}
+.myfont-size1{
+    font-size: smaller;
+    color:black
+}
+
+.blob img{
+    border-radius: 62% 38% 73% 27% / 51% 39% 61% 49% ;
+}
+
+.btn-color{
+    background: #3ab3a4 !important;
+}
+
+.btn-color:hover{
+    background: #8adad0 !important;
+}
+
+ .mybg{
+    background-color: #eefdfc;
+    opacity: 0.8;
+ }
+
+ .footerrow1{
+    background-color: #eefdfc;
+    opacity:0.8;
+ }
+
+ .footerrow2{
+   /* background: rgba(19, 232, 206, 0.35) 0%; */
+   background: #85eee2;
+   
+ }
+    
+.fontsize-book, .book-name {
+    font-size: small;
+}
+
+.input-container{
+    position: relative;
+
+}
+
+.email-icon{
+    position: absolute;
+    right:95%;
+    top:26%
+}
+
+.suscribe-text{
+    font-size: small;
+}
+    
+.mysubsbtn{
+    background-color: #eec764 !important;
+    border-radius: 5px;
+
+}
+
+.mysubsbtn:hover{
+    background-color: #b99435 !important;
+    transition: 0.4s !important;
+}
+
+.onscrollcontainer{
+    display: none;
+    height: 120px;
+    background: linear-gradient(180deg , #fcfcfc, #a5ced4);
+    box-shadow: 0px 4px 100px  rgba(255, 255, 255, 0.979) ;
+    z-index: 2; 
+}
+/* linear-gradient(15deg, #7c84fc, #ff4dd2);
+--gradient-highlight-horizontal: linear-gradient(90deg, #ff4dd2, #7c84fc);
+--gradient-highlight-diagonal: linear-gradient(45deg, #7c84fc, #ff4dd2); */
+
+
+.onscrollcontainer.active{
+    display: flex;
+    height: 120px;
+    background: linear-gradient(180deg , #fcfcfc, #a5ced4);
+    box-shadow: 0px 4px 100px  rgba(255, 255, 255, 0.979) ;
+    z-index: 2;
+    justify-content: center; 
+    transition: 0.5s ease-in-out !important;
+
+}
+
+.myfixedbtn{
+    height:40px;
+    width: 300px;
+    border-radius: 50px!important;
+    background-color: #3ab3a4!important;
+}
+
+.myopencon{
+    height:80vh;
+    width:60% !important;
+    background: red
+}
