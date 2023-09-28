@@ -37,7 +37,7 @@ window.addEventListener('scroll',setFixed)
           <Link className="nav-link" to="/opencon">Books</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to='#'>Login/Register</Link>
+          <Link className="nav-link" to='login'>Login/Register</Link>
         </li>
       </ul>
       <div className='d-flex justify-content-center align-items-center gap-3'>

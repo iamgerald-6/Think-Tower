@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Book1 from '../assets/book1.jpg';
 import Book2 from '../assets/book2.jpg';
 import Book3 from '../assets/book3.jpg';
@@ -10,6 +10,10 @@ import {FaStarHalf} from 'react-icons/fa'
 
 
 function Bestsellers(props) {
+
+  const navref = useRef()
+
+  
   return (
     <div className='container-fluid'>
         <h2 className='display-5 fw-bold mt-5'>{props.name}</h2>

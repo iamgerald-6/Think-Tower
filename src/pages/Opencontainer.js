@@ -2,19 +2,21 @@ import React from 'react'
 import Book5 from '../assets/book5.jpg';
 import {CiHeart} from 'react-icons/ci';
 import {CiShoppingCart} from 'react-icons/ci';
-import {FaStar} from 'react-icons/fa';
-import {FaStarHalf} from 'react-icons/fa'
+import {FaStar, FaTimes} from 'react-icons/fa';
+import {FaStarHalf} from 'react-icons/fa';
+
 
 
 function Opencontainer() {
 
   return (
-    <div className='container-sm'>
-      <div className='row border border-3 boxshadow row-edit justify-content-between'>
+    <div className='container-sm position-relative'>
+      <div className='row border border-3 border-dark boxshadow row-edit justify-content-around'>
         <div className='col-md-4'>
           <img className='img-fluid' src={Book5}  alt='expand book'/>
         </div>
        
+
        <div className='col-md-7'>
           <h3 className='fw-bold Lead display-5'>The Picture of Dorian Gray</h3>
           <h4 className='lead'> By Oscar Wilde</h4>
@@ -34,13 +36,15 @@ function Opencontainer() {
             <h5>&#x20B5;60.00</h5>
           </div>
           
-        
+          
         <div className='col-md-4 mt-2'>
           < CiHeart className='me-3' size={35}/> 
           <CiShoppingCart size ={35}/>
         </div>
 
-          
+        <div className='col-md-1 position-absolute top-0 end-0 px-5 ms-5'>
+         <FaTimes/>
+       </div>
 
        
        </div>
