@@ -25,7 +25,7 @@ export default function Login() {
                         <Link className='log-in btn mt-4'>Login</Link>
                         </div>
                         <div>
-                            <label className='label-2 mt-4 d-flex justify-content-center'>Don't have an account?<Link>Signup</Link></label>
+                            <label className='label-2 mt-4 d-flex justify-content-center'>Don't have an account?<Link to='/signup'>Signup</Link></label>
                         </div>
                     </form>
                     
